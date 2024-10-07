@@ -24,4 +24,12 @@ While checking some threads derived from the post, there were some interesting a
 
 The thread's authors have obtained solutions tha were optimal within a very short time (nice). nonetheless, I was able to find a solution that was very close to the optimal solution in pretty much the same time. The authors claimed to have found the optimal solution in less than 0.1 seconds, while my solution took the same, yet  using an old-fashioned genetic algorithm with very few customizations.
 
+The results obtained correspond to:
+
+```sh
+Best objective: 3.8585932
+ Time to best: 0.48874521255493164
+ Best solution: [1.47438, 1.21521, 1.00195, 0.7891, 0.51936]
+```
+
 In my opinion this simple example shows that there is still room for simple optimization algorithms to solve complex problems withouth the need of sophisticated optimization solvers. This observation can be very useful for practitioners that do not have access to commercial solvers or are not willing to pay for them to solve their problems (particularly important for small companies and startups).
