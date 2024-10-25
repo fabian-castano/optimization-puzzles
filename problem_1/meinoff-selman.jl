@@ -120,6 +120,9 @@ end
 
 
 
+
 start_time = time()
 evolve_population(5, 50, 500, 20, f)
+
+println("Time: ", time()-start_time)
 
