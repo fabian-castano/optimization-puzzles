@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "puzzles"
+version = "0"
+description = ""
+authors = ["Fabi"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pulp = "^2.9.0"
+highsbox = "^1.8.0"
+pyoptinterface = "^0.2.8"
+salabim = "^24.0.14.post3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
